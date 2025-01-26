@@ -10,7 +10,7 @@ int main() {
     printf("C");
     else if(70>a>=60)
     printf("D");
-    else if
+    else 
     printf("F");
     return 0;
 }
