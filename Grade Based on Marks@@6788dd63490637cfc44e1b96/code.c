@@ -3,14 +3,14 @@ int main() {
     int a;
     scanf("&d",&a);
     if(a>=90)
-    printf("A");
+    printf('A');
     if(a>=80&&a<90)
-    printf("B");
+    printf('B');
     if(a>=70&&a<80)
-    printf("C");
+    printf('C');
     if(a>=60&&a,70)
-    printf("D");
+    printf('D');
     else
-    printf("F");
+    printf('F');
     return 0;
 }
