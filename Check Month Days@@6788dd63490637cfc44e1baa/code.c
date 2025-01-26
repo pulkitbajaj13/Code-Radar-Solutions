@@ -16,7 +16,7 @@ int main() {
         case 4:
         printf("30");
         break;
-        case 5;
+        case 5:
         printf("31");
         break;
         case 6:
