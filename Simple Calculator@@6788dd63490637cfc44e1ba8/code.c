@@ -3,7 +3,8 @@
 int main() {
     int a,b,;
     char operator;
-    scanf("%d %d %c",&a,&b,&operator);
+    scanf("%d %d ",&a,&b);
+    scanf("%c",&operator);
     switch(operator){
         case '+':
         printf("%d",a+b);
