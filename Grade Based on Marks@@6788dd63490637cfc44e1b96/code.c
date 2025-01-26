@@ -3,13 +3,13 @@ int main() {
     int a;
     scanf("&d",&a);
     if(a>=90)
-    printf("A");
+    printf("A\n");
     else if(90>a>=80)
-    printf("B");
+    printf("B\n");
     else if(80>a>=70)
-    printf("C");
+    printf("C\n");
     else if(70>a>=60)
-    printf("D");
+    printf("D\n");
     else
     printf("F");
     return 0;
