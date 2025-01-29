@@ -3,7 +3,7 @@
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a& 1<<31 || b& 1<<32)
+    if(a& 1<<31 && b& 1<<32)
         printf("1") ;
     else
         printf("0");
