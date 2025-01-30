@@ -3,6 +3,8 @@
 int main() {
     int a;
     scanf("%d",&a);
-    printf("%d",);
+    while(n&1==0){
+        printf("%d",a);
+    }
     return 0;
 }
