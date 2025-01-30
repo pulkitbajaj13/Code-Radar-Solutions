@@ -6,7 +6,7 @@ int main() {
     while((a&1)==0){
         a=a>>1;
         count++;
-        break;
+       
     }
     printf("%d",count);
     
