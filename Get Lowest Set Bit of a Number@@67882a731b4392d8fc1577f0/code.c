@@ -8,7 +8,7 @@ int main() {
         count++;
         break;
     }
-    printf("%d",a<<count);
+    printf("%d",count);
     
     return 0;
 }
