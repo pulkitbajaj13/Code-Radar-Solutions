@@ -6,7 +6,7 @@ int main() {
     for (i=31;i>=0;i--)
         if (n&1<<i)
             printf("1");
-        else if(i<31)
+        else 
             printf("0");
     return 0;
 }
