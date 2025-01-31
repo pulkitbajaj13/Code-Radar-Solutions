@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    unsigned a,i;
-    scanf("%u",&a);
+    int a,i;
+    scanf("%d",&a);
     while(a!=0){
         i++;
         a=a>>1;
     }
-    printf("%u",32-i);
+    printf("%d",32-i);
     return 0;
 }
