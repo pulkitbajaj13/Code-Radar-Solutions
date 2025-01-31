@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    int a,count;
+    int a,i;
     scanf("%d",&a);
-    while((a&1)==0){
-        count++;
+    while(a!=0){
+        i++;
+        a=a<<1;
        
     }
-    printf("%d",count);
+    printf("%d",32-i);
     return 0;
 }
