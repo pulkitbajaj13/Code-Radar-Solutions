@@ -5,8 +5,8 @@ int main() {
     scanf("%d",&a);
     for(i=a;i>=1;i--){
         char ch='A';
-        ch++;
         for(j=1;j<=i;j++){
+            ch++;
             printf("%c ",ch);
 
         }
