@@ -8,7 +8,7 @@ int main() {
             if(j=a-i)
                 printf("");
             else
-                printf("* ");
+                printf("*");
         }
         printf("\n");
     }
