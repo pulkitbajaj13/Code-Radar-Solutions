@@ -2,8 +2,8 @@
 
 int main() {
    int a,i;
+   scanf("%d",&a);
    for(i=1;i<=10;i++){
-    scanf("%d",&a);
     printf("%d x %d = %d\n",a,i,a*i);
 
    }
