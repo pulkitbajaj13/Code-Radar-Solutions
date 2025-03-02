@@ -10,8 +10,8 @@ int main() {
     }
     return 0;
 }
-int isprime(int a,int n){
-    if (a<2) 
+int isprime(int n){
+    if (n<2) 
     return 0;
     for (int i=2;i*i<=n;i++){
         if (n%i==0) 
