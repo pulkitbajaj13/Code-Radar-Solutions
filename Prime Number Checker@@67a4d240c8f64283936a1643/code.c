@@ -1,14 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int isprime(int n){
-    if (a<2) 
-    return 0;
-    for (int i=2;i*i<=n;i++){
-        if (n%i==0) 
-        return 0;
-    }
-    return 1;
-}
+int isprime(int a);
 int main() {
     int t, n;
     scanf("%d", &t);
@@ -17,4 +9,13 @@ int main() {
         printf("%d\n",isprime(n));
     }
     return 0;
+}
+int isprime(int a){
+    if (a<2) 
+    return 0;
+    for (int i=2;i*i<=n;i++){
+        if (n%i==0) 
+        return 0;
+    }
+    return 1;
 }
