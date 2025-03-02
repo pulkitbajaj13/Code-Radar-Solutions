@@ -1,7 +1,6 @@
 // Your code here...
 #include <stdio.h>
-
-int isprime(int a) {
+int isprime(int n){
     if (a<2) 
     return 0;
     for (int i=2;i*i<=n;i++){
