@@ -10,7 +10,7 @@ int main() {
     }
     return 0;
 }
-int isprime(int a){
+int isprime(int a,int n){
     if (a<2) 
     return 0;
     for (int i=2;i*i<=n;i++){
