@@ -1,7 +1,5 @@
-int main(){
 for(int i=0;i<n;i++){
 printf("%d ",fibonacciSeries(i));
-}
 }
 int fibonacciSeries(int n){
     if(n==0){
