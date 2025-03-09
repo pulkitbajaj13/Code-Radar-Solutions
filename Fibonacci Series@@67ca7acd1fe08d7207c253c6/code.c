@@ -12,7 +12,7 @@ printf("%d ",fibonacciseries(i));
 }
 return 0;
 }
-int fibonacciseries(n){
+fibonacciseries(n){
     if(n==0){
         return 0;
     }if(n==1){
