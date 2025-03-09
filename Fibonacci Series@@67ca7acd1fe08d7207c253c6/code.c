@@ -1,7 +1,8 @@
+for(int i=0;i<n;i++){
+    printf("%d ",fibonacciSeries(i));
+}
+return 0;
 int fibonacciSeries(int n){
-    for(int i=0;i<n;i++){
-        printf("%d ",fibonacciSeries(i));
-    }
     if(n==0){
         return 0;
     }
