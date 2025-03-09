@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 
 // Function to return the nth Fibonacci number
 int fibonacciSeries(int n) {
