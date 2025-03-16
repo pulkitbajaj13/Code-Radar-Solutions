@@ -10,7 +10,7 @@ int isPrime(int num){
     return 1;
 }
 int printPrimesInRange(int a,int b){
-    for(num=a;num<=b;num++){
+    for(int num=a;num<=b;num++){
         if(isPrime(num)){
             printf("%d ",num);
         }
