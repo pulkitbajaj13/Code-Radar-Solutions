@@ -13,7 +13,8 @@ void printPrimesInRange(int a,int b){
     int found=0;
     for(int num=a;num<=b;num++){
         if(isPrime(num)){
-            printf("%d ",num);      
+            printf("%d ",num);
+            found=1; 
         }
         }
         if(!found)
