@@ -1,15 +1,11 @@
-for(int i=0;i<n;i++){
-    printf("%d ",fibonacciSeries(i));
-}
-
-return 0;
 int fibonacciSeries(int n){
-    if(n==0){
-        return 0;
+    int a=0,b=1,c,i;
+    for(i=1;i<=n;i++)
+    {
+        printf("%d ",a);
+        c=a+b;
+        a=b;
+        b=c;
     }
-    if(n==1){
-        return 1;
-    }
-    return fibonacciSeries(n-1) + fibonacciSeries(n-2);
+    return b;
 }
-
