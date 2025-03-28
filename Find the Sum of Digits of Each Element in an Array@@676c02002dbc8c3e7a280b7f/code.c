@@ -8,7 +8,7 @@ int sumofdigits(int num){
 int main(){
     int N,i;
     scanf("%d",&N);
-    int arr[N],sumarr[N],
+    int arr[N],sumarr[N];
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
