@@ -2,8 +2,8 @@
 #include <stdio.h>
 int main(){
     int i,max,min,N;
-    int arr[N];
     scanf("%d",&N);
+    int arr[N];
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
