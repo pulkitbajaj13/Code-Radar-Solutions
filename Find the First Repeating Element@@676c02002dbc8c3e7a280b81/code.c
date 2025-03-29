@@ -3,6 +3,10 @@
 int main() {
     int N,i,maxcount=0,maxelement;
     scanf("%d",&N);
+    if(N<2){
+        printf("-1");
+        return 0;
+    }
     int arr[N];
     int freq[1000]={0};
     for (i=0;i<N;i++){
