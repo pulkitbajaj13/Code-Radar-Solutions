@@ -9,7 +9,7 @@ int fact(int num){
     }
     return fact(num-1)*num;
 }
-void factorialRanhge(int start,int end){
+void factorialRange(int start,int end){
     int found=0;
     for(int i=start;i<+end;i++){
         if(start<end){
