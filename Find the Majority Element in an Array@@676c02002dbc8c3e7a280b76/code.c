@@ -13,6 +13,10 @@ int main() {
             maxelement=arr[i];
         }
     }
-    printf("%d\n",maxelement); 
+    if(maxcount>N/2){
+        printf("%d",maxelement);
+    } else{
+        printf("-1");
+    }
     return 0;
 }
