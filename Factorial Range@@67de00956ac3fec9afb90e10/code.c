@@ -16,6 +16,6 @@ void factorialRange(int start,int end){
             found=1;
     }
         if(!found){
-            printf("Invalid Range");
+            printf("Invalid range");
         }
 }
