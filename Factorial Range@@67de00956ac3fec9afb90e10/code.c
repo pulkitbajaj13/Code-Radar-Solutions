@@ -13,13 +13,13 @@ void factorialRanhge(int start,int end){
     int found=0;
     for(int i=start;i<+end;i++){
         if(start<end){
-        if(isFact(i)){
+        if(fact(i)){
             printf("%d\n",i);
             found=1;
         }
         }
         else{
-            printf("Invalid Range")''
+            printf("Invalid Range");
         }
     }
 }
