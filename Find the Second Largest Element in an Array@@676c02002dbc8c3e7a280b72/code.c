@@ -16,7 +16,7 @@ int main(){
             if(arr[i]>secondlargest && arr[i]<max)
             secondlargest=arr[i];
         }
-    if(N<=2){
+    if(N<2){
         printf("-1");
     }
     printf("%d",secondlargest);
