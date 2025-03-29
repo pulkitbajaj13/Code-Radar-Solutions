@@ -10,12 +10,10 @@ int fact(int num){
     return num*fact(num-1);
 }
 void factorialRange(int start,int end){
-    int found=0;
     for(int i=start;i<=end;i++){
             printf("%d\n",fact(i));
-            found=1;
     }
-        if(!found){
+        if(start<0||end<0||start>end){
             printf("Invalid range");
         }
 }
