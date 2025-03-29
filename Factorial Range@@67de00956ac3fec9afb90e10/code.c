@@ -5,7 +5,7 @@ int fact(int num){
         return 1;
     }
     if(num<0){
-        return -1;
+        num=-num;
     }
     return num*fact(num-1);
 }
