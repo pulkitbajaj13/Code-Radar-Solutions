@@ -14,8 +14,7 @@ int main(){
     }
     secondlargest=max;
     for(i=0;i<N;i++){
-        if(arr[i]<max){
-            if(arr[i]>secondlargest)
+            if(arr[i]>secondlargest && arr[i]<max)
             secondlargest=arr[i];
         }
     }
