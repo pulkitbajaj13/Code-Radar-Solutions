@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 int main() {
     int N,i,maxcount=0,maxelement;
@@ -17,10 +16,6 @@ int main() {
             maxelement=arr[i];
         }
     }
-    if(maxcount>N/2){
-        printf("%d",maxelement);
-    } else{
-        printf("-1");
-    }
+    printf("%d\n",maxelement); 
     return 0;
-}
+}Loading Code...
