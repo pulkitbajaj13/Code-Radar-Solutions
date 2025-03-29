@@ -6,13 +6,12 @@ int main(){
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    max=arr[0];
+    max=arr[0]=secondlargest;
     for(i=0;i<N;i++){
         if(arr[i]>max){
             max=arr[i];
         }
     }
-    secondlargest=max;
     for(i=0;i<N;i++){
             if(arr[i]>secondlargest && arr[i]<max)
             secondlargest=arr[i];
