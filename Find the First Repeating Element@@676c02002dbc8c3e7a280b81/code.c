@@ -18,9 +18,10 @@ int main() {
             found=1;
         }
     }
+    if(found==1){
     printf("%d\n",maxelement); 
-    if(!found){
-        printf("-1");
     }
+    else
+    printf("-1");
     return 0;
 }
