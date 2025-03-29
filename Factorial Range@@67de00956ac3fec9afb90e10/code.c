@@ -12,14 +12,12 @@ int fact(int num){
 void factorialRange(int start,int end){
     int found=0;
     for(int i=start;i<=end;i++){
-        if(start<end){
         if(fact(i)){
             printf("%d\n",i);
             found=1;
         }
-        }
-        else{
+    }
+        if(!found){
             printf("Invalid Range");
         }
-    }
 }
