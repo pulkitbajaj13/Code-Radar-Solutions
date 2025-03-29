@@ -7,7 +7,7 @@ int fact(int num){
     while(num<0){
         num=-num;
     }
-    return fact(num-1)*num;
+    return num*fact(num-1);
 }
 void factorialRange(int start,int end){
     int found=0;
