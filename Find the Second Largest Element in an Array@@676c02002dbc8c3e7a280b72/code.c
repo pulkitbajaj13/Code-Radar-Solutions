@@ -17,7 +17,7 @@ int main(){
             secondlargest=arr[i];
         }
     if(N<=2){
-        return -1;
+        printf("-1");
     }
     printf("%d",secondlargest);
     return 0;
