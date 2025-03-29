@@ -1,5 +1,4 @@
 // Your code here...
-Element with max frequency
 #include <stdio.h>
 int main() {
     int N,i,maxcount=0,maxelement;
