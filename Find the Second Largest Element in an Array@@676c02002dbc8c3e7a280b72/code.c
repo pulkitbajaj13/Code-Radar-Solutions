@@ -13,6 +13,7 @@ int main(){
     max=arr[0]=secondlargest;
     for(i=0;i<N;i++){
         if(arr[i]>max){
+            secondlargest=max;
             max=arr[i];
         }
     }
