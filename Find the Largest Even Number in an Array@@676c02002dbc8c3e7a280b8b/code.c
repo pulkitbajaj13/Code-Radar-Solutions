@@ -8,6 +8,7 @@ int main(){
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
+    evenmax = INT_MIN;
     for(i=0;i<N;i++){
         if(arr[i]%2==0 && arr[i]>evenmax){
             evenmax=arr[i];
