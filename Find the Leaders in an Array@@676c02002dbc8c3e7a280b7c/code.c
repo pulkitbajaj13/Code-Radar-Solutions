@@ -10,7 +10,7 @@ int main(){
     for(i=0;i<N;i++){
         leader=1;
         for(int j=i+1;j<N;j++){
-        if(arr[i]<=arr[j]){
+        if(arr[i]<arr[j]){
             leader=0;
             break;
         }
