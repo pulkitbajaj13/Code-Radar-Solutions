@@ -11,6 +11,7 @@ int isprime(int num){
 int main(){
     int i,N,count=0;
     scanf("%d",&N);
+    int arr[N];
     for(i=0;i<N;i++){
         scanf("%d"&arr[i]);
     }
