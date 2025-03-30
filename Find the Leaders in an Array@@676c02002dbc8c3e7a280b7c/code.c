@@ -8,7 +8,7 @@ int main(){
          scanf("%d",&arr[i]);
      }
      for(i=0;i<N;i++){
-         if(arr[i]>arr[N-i]){
+         if(arr[i]>arr[N-i+1]){
              printf("%d",arr[i]);
          }
      }
