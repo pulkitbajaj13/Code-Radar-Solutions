@@ -1,7 +1,6 @@
 // Your code here...
 #include <stdio.h>
-
-void movezeroestornd(int arr[], int n) {
+void movezeroestoend(int arr[], int n) {
     int j = 0; 
     for (int i = 0; i < n; i++) {
         if (arr[i] != 0) {
