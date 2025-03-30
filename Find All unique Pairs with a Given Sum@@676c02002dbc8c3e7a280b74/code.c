@@ -11,12 +11,12 @@ int main(){
     scanf("%d",&T);
     for(i=0;i<N;i++){
         for(int j=i+1;j<N;j++){
+            if(arr[i]==arr[j]){
+            printf("%d %d\n",arr[i],arr[j]);
+            break;;
+        }
             if(arr[i]+arr[j]==T){
             printf("%d %d\n",arr[i],arr[j]);
-        }
-        else if(arr[i]==arr[j]){
-            printf("%d %d\n",arr[i],arr[j]);
-            break;
         }
     }
     }
