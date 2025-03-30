@@ -13,8 +13,9 @@ int main(){
             printf("%d",i);
             found=1;
         }
-        else
+        else{
         allequal=0;
+        }
     }
     if(allequal&&found){
         printf("0");
