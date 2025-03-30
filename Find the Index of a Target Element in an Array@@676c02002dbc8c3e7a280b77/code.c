@@ -19,6 +19,7 @@ int main(){
     }
     if(allequal&&found){
         printf("0");
+        return 0;
     }
     if(!found){
         printf("-1");
