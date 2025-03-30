@@ -7,12 +7,13 @@ int main(){
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    int T;
+    int T,found=0;
     scanf("%d",&T);
     for(i=0;i<N-1;i++){
         for(int j=i+1;j<N;j++){
             if(arr[i]+arr[j]==T)
             printf("%d %d\n",arr[i],arr[j]);
+            found=1;
             break;
         }
     }
