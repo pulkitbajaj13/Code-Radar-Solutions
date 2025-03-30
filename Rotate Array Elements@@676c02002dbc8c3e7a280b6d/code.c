@@ -16,7 +16,7 @@ int main(){
         arr[0]=temp;
     }
     for(i=0;i<N;i++){
-        printf("%d\n",&arr[i]);
+        printf("%d\n",arr[i]);
     }
     return 0;
 }
