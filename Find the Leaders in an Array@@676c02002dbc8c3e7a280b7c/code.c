@@ -7,7 +7,7 @@ int main(){
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    for(i=0;i<N-1;i++){
+    for(i=0;i<N;i++){
         leader=1;
         for(int j=i+1;j<N;j++){
         if(arr[i]<=arr[j]){
