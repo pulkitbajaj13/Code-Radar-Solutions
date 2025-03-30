@@ -11,8 +11,12 @@ int main(){
         leader=1;
         for(int j=i+1;j<N;j++){
         if(arr[i]<=arr[j]){
-            printf("%d ",arr[i]);
+            leader=0;
+            break;
         }
+    }
+    if(leader){
+        printf("%d ",arr[i]);
     }
     }
      return 0;
