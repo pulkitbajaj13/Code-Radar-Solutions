@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <limits.h>
 int main(){
-    int i,N,evenmax,found=0;
+    int i,N,evenmax;
     scanf("%d",&N);
     int arr[N];
     for(i=0;i<N;i++){
@@ -11,12 +11,9 @@ int main(){
     for(i=0;i<N;i++){
         if(arr[i]%2==0 && arr[i]>evenmax){
             evenmax=arr[i];
-            found=1;
         }
     }
-    if(found){
         printf("%d",evenmax);
-    }
     else{
         printf("-1");
     }
