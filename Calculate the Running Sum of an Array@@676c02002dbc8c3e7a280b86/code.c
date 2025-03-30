@@ -8,6 +8,7 @@ int main(){
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
+    sum[0]=arr[0];
     for(i=0;i<N;i++){
         sum[i]=sum[i-1]+arr[i];
     }
