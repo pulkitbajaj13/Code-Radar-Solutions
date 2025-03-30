@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <limits.h>
 int main() {
-    int N, i, max, secondsmallest;
+    int N, i, min, secondsmallest;
     scanf("%d", &N);
     if (N < 2) {
         printf("-1");
