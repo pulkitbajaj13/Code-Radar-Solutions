@@ -9,6 +9,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     max = secondmax = INT_MIN;
+    if(arr[i]<0){
+        arr[i]=-arr[i];
+    }
     for(i=0;i<N;i++){
         if(arr[i]>max){
             secondmax=max;
