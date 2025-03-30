@@ -12,8 +12,9 @@ int main(){
         if(arr[i]==key){
             printf("%d",i);
             found=1;
-            allequal=0;
         }
+        else
+        allequal=0;
     }
     if(allequal&&found){
         printf("0");
