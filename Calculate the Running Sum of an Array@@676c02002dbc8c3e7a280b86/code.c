@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(i=0;i<N;i++){
-        sum[i]+=arr[i];
+        sum[i]=sum[i-1]+arr[i];
     }
     for(i=0;i<N;i++){
         printf("%d ",sum[i]);
