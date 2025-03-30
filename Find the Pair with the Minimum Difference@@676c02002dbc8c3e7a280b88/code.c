@@ -4,6 +4,7 @@
 int main(){
     int N,i,min,secondmin;
     scanf("%d",&N);
+    int arr[N];
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
