@@ -13,9 +13,6 @@ int main(){
             evenmax=arr[i];
         }
     }
-        printf("%d",evenmax);
-    else{
-        printf("-1");
-    }
+    printf("%d",evenmax);
     return 0;
 }
