@@ -9,11 +9,11 @@ int main() {
     }
     int increasing = 1, decreasing = 1;
     for (i = 1; i < N; i++) {
-        if (arr[i] > arr[i - 1]) {
-            decreasing = 0;  
+        if (arr[i] > arr[i + 1]) {
+            increasing = 0;  
         }
-        if (arr[i] < arr[i - 1]) {
-            increasing = 0;
+        if (arr[i] < arr[i + 1]) {
+            decreasingcreasing = 0;
         }
     }
     if (increasing || decreasing) {
