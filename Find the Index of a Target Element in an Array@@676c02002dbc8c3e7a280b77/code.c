@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int i,N,key,found=0,allequal=1;
+    int i,N,key,found=0;
     scanf("%d",&N);
     int arr[N];
     for(i=0;i<N;i++){
@@ -13,13 +13,6 @@ int main(){
             printf("%d",i);
             found=1;
         }
-        else{
-        allequal=0;
-        }
-    }
-    if(allequal&&found){
-        printf("0");
-        return 0;
     }
     if(!found){
         printf("-1");
