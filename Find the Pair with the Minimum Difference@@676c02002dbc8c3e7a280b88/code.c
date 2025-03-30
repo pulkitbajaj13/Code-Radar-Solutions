@@ -1,23 +1,35 @@
 // Your code here...
 #include <stdio.h>
 #include <limits.h>
-int main(){
-    int N,i,min,secondmin;
-    scanf("%d",&N);
+void bubbleSort(int arr[], int n) {
+    int i, j, temp;
+    for (i = 0; i < n - 1; i++) {
+        for (j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
+int main() {
+    int N, i, mindiff, first, second;
+    scanf("%d", &N);
     int arr[N];
-    for(i=0;i<N;i++){
-        scanf("%d",&arr[i]);
+    for (i = 0; i < N; i++) {
+        scanf("%d", &arr[i]);
     }
-    min=secondmin=INT_MAX;
-    for(i=0;i<N;i++){
-        if(arr[i]<min){
-            secondmin=min;
-            min=arr[i];
-        }
-        else if(arr[i]>min && arr[i]<secondmin){
-            secondmin=arr[i];
+    bubbleSort(arr, N);
+    mindiff = INT_MAX;
+    for (i = 0; i < N - 1; i++) {
+        int diff = arr[i + 1] - arr[i];
+        if (diff < mindiff) {
+            mindiff = diff;
+            first = arr[i];
+            second = arr[i + 1];
         }
     }
-    printf("%d %d",min,secondmin);
+    printf("%d %d\n", first, second);
     return 0;
 }
