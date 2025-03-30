@@ -3,6 +3,7 @@
 int main(){
     int i,N,oddcount=0,evencount=0;
     scanf("%d",&N);
+    int arr[N];
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
