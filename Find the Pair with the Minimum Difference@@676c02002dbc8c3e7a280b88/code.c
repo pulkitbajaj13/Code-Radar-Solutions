@@ -16,6 +16,10 @@ void bubbleSort(int arr[], int n) {
 int main() {
     int N, i, mindiff, first, second;
     scanf("%d", &N);
+    if(N==1){
+        printf("-1");
+        return 0;
+    }
     int arr[N];
     for (i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
